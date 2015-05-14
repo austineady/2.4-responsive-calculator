@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
 * {
   /* border: 1px solid red; */ }
 
@@ -69,8 +77,8 @@ header {
 .calculator {
   font-family: Josefin Sans;
   float: left;
-  height: 400px;
-  width: 300px;
+  height: 390px;
+  width: 290px;
   border-radius: 10px;
   margin-top: 100px;
   margin-left: 25px;
@@ -92,7 +100,7 @@ header {
 .display {
   height: 50px;
   width: 250px;
-  margin-left: 30px;
+  margin-left: 20px;
   margin-top: 20px;
   border-radius: 3px;
   background-color: rgba(255, 255, 255, 0.6);
@@ -137,10 +145,10 @@ li:active {
   border: 3px solid rgba(0, 0, 0, 0.1); }
 
 .zero {
-  width: 115px; }
+  width: 110px; }
 
 .zero:active {
-  width: 110px; }
+  width: 105px; }
 
 .computer {
   width: 600px;
