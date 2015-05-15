@@ -39,6 +39,7 @@ function equalPressed(event) {
 
 function clearPressed(event) {
   var button = event.target;
+  instructionQueue.length = 0;
   document.getElementById("javaoutput").innerHTML = "";
 }
 
